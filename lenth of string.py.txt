@@ -1,0 +1,5 @@
+
+#length of the string
+
+a='programmer'
+print(len(a))
