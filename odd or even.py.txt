@@ -1,0 +1,20 @@
+
+#function to check the number nodd or even
+
+
+
+
+a=int(input("enter the number"))
+
+def check(s):
+
+    num=s
+
+    if num%2==0:
+
+        print("the number is even")
+
+    else:
+
+        print("the number is odd")
+check(a)
