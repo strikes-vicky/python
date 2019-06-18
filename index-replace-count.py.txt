@@ -1,0 +1,8 @@
+
+#replace-index-replace
+
+string='programmer'
+c=string.count('r')
+print("count of 'r' is:",c)
+print(string.index('g'))
+print(string.replace('m','y'))
