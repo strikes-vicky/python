@@ -1,0 +1,10 @@
+#Display fibonacci series, and store the values in a List
+
+n=int(input("enter the limit to find fibonacci series")) 
+a=0
+b=1
+fib=[a,b]
+while(b<n):
+    a,b=b,a+b
+    fib.append(b)
+print(fib)
