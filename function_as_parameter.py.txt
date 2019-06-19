@@ -1,0 +1,18 @@
+#Write a function that takes an exploder function and N. the exploder function explodes the given string into N times
+
+# Function Prototype:
+#    Exploder(string,n)
+#    Myfun(string,exploder,n)
+# Input: guvi 5
+# Output: guviguviguviguviguvi 
+
+
+
+
+string='guvi'
+n=int(input("enter no of times to be printed"))
+def exploder(x,n):
+     print(x*n)
+def my_function(string,fun,n):
+        exploder(string,n)
+my_function(string,exploder,n)
